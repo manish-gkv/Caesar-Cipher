@@ -30,10 +30,10 @@
                         Home
                     </a>
                     <a href="#about" class="nav-items">About This Project</a>
-                    <a href="#encrypt" class="nav-items">Encrypt Messege</a>
-                    <a href="#decrypt" class="nav-items">Decrypt Messege</a>
-                    <a href="#Guess" class="nav-items">Guess The Key</a>
-                    <a href="#brut-force" class="nav-items">Brut Force Approach</a>
+                    <a href="#Encrypt" class="nav-items">Encrypt Messege</a>
+                    <a href="#Decrypt" class="nav-items">Decrypt Messege</a>
+                    <a href="#GuessKey" class="nav-items">Guess The Key</a>
+                    <a href="#BruteForce" class="nav-items">Brut Force Approach</a>
                 </div>
 
             </nav>
@@ -41,18 +41,100 @@
     </section id="home">
     <div class="AllTask" >
         <section id="Encrypt" class="task">
-            
+            <div class="task-1">
+                <h1>Task 1</h1>
+                <p>Encrypt Message</p>
+            </div>
+            <div class="prg">
+                <label for="Message">Entre Your Message:</label>
+                <input type="text" id="message"><br>
+
+                <label for="key">Key:</label>
+                <input type="number" id="key"><br>
+
+                <div class="btn"><button id="Encrypt-Button" onclick="EncryptText()">Encrypt</button><br></div>
+                <label for="EncryptedMessage">Encrypted Message:</label>
+                <input type="text" id="encrpted-text" readonly>
+            </div>
         </section>
         <section id="Decrypt" class="task">
+            <div class="task-2">
+                <h1>Task 2</h1>
+                <p>Decrypt Message</p>
+            </div>
+            <div class="prg">
+                <label for="Message">Entre Cipher Text:</label>
+                <input type="text" id="cipher-text"><br>
 
+                <label for="key">Key:</label>
+                <input type="number" id="ci-key">
+
+                <div class="btn"><button id="Decrypt-Button" onclick="DecryptText()">Decrypt</button><br></div>
+                <label for="DecryptedMessage">Decrypted Message:</label>
+                <input type="text" id="decrpted-text" readonly>
+            </div>
         </section>
         <section id="GuessKey" class="task">
+            <div class="task-3-1">
+                <h1>Task 3</h1>
+                <p>Part 1</p>
+                <p>Guessing The Key</p>
+            </div>
+            <div class="prg">
+                <label for="Message">Entre Cipher Text:</label>
+                <input type="text" id="ci-text"><br>
+                <label for="Message">Entre Original Text:</label>
+                <input type="text" id="org-text">
 
+                <div class="btn"><button id="find-key" onclick="KeyFinder()">Guess Key</button><br></div>
+                <label for="key">Key:</label>
+                <input type="text" id="f-key" readonly>
+            </div>
         </section>
-        <section id="BrutForce" class="task">
+        <section id="BruteForce" class="taskk">
+            <div class="task-3-2">
+                <h1>Task 3</h1>
+                <p>Part 2</p>
+                <p>Brute Force</p>
+            </div>
+            <div class="prg">
+                <label for="Message">Entre Encripted Message:</label>
+                <input type="text" id="msg"><br><br>
 
+                <button id="translate" onclick="bruteForceCC()">Translate</button><br>
+                <label for="translate">Following are the translation:-</label><br>
+                <p id="sp-1"></p><br>
+                <p id="sp-2"></p><br>
+                <p id="sp-3"></p><br>
+                <p id="sp-4"></p><br>
+                <p id="sp-5"></p><br>
+                <p id="sp-6"></p><br>
+                <p id="sp-7"></p><br>
+                <p id="sp-8"></p><br>
+                <p id="sp-9"></p><br>
+                <p id="sp-10"></p><br>
+                <p id="sp-11"></p><br>
+                <p id="sp-12"></p><br>
+                <p id="sp-13"></p><br>
+                <p id="sp-14"></p><br>
+                <p id="sp-15"></p><br>
+                <p id="sp-16"></p><br>
+                <p id="sp-17"></p><br>
+                <p id="sp-18"></p><br>
+                <p id="sp-19"></p><br>
+                <p id="sp-20"></p><br>
+                <p id="sp-21"></p><br>
+                <p id="sp-22"></p><br>
+                <p id="sp-23"></p><br>
+                <p id="sp-24"></p><br>
+                <p id="sp-25"></p><br>
+                <p id="sp-26"></p><br>
+                
+            </div>
         </section>
     </div>
+    <script src="script.js"></script>
+    
 </body>
 
 </html>
