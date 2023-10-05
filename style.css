@@ -1,0 +1,84 @@
+body{
+    background-color: #F1E3E4;
+    margin: 8px;
+    display: grid;
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+.nav-items{
+    color: lightgray;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.1vh;
+    font-size: 17px;
+}
+.nav-bar{
+    
+    float: right;
+}
+#home{
+    background-color: #7353BA;
+    display: block;
+    padding-top: 1cm;
+    padding-bottom: -0.01cm;
+    margin-top: -0.5cm;
+    margin-left: -0.5cm;
+    margin-right: -0.5cm;
+    
+}
+.top-nav{
+    padding: 0.5cm;
+    margin-right: 0.5cm;
+}
+.nav-items{
+    padding-left: 0.5cm;
+    padding-right: 0.5cm;
+}
+.nav-items:hover{
+    color: white;
+    font-size: 18px;
+}
+.header{
+    float: left;
+    margin-bottom: 0.5cm;
+    margin-left: 0.5cm;
+}
+.h-itm{
+    color: white;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.2vh;
+    font-size: 50px;
+    margin-top: -0.6cm;
+
+}
+.cont p{
+    font-size: 17px;
+    letter-spacing: 0.3vh;
+}
+.descp{
+    margin-top: -1.2cm;
+    padding-top: -0.1cm;
+}
+
+.task{
+    background: #F3C677;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.AllTask{
+    display: grid;
+    justify-content: center;
+}
+#Encrypt{
+    margin-top: 20px;
+}
